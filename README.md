@@ -6,7 +6,7 @@ From your command line, clone and run:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/bethwickerson/balraj-react-site.com.git
+$ git clone https://github.com/bethwickerson/blraj-react-site.git
 
 # Download and install node (v18.0.0 +)
 # https://nodejs.org/en/download/
