@@ -66,6 +66,13 @@ yarn-error.log
 .pnp/
 .pnp.js
 # Yarn Integrity file
-.yarn-integrity
+
+node_modules
+.tmp
+.sass-cache
+package-lock.json
 yarn.lock
-package.lock
+composer.lock
+vendor
+.DS_Store
+.cache
