@@ -1,28 +1,16 @@
-import * as React from "react"
-// import { Link } from "gatsby"
-// import { StaticImage } from "gatsby-plugin-image"
-
-import Layout from "../components/layout"
-import Seo from "../components/seo"
+import * as React from "react";
+import Layout from "../components/layout";
+import Seo from "../components/seo";
 // Components
-import Navbar from "../components/Navbar"
-import Work from "../components/Work"
-import About from "../components/About"
-import Skills from "../components/Skills"
-import Promotion from "../components/Promotion"
-import Contact from "../components/Contact"
+import Navbar from "../components/Navbar";
+import Work from "../components/Work";
+import About from "../components/About";
+import Skills from "../components/Skills";
+import Promotion from "../components/Promotion";
+import Contact from "../components/Contact";
 
 const IndexPage = () => (
   <Layout>
-    {/* <StaticImage
-        src="../images/example.png"
-        loading="eager"
-        width={64}
-        quality={95}
-        formats={["auto", "webp", "avif"]}
-        alt=""
-        style={{ marginBottom: `var(--space-3)` }}
-      /> */}
     <Navbar />
     <Work />
     <Promotion />

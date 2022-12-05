@@ -9,10 +9,10 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    title: `BALRAJ AR DESIGNER`,
+    description: `Creative technologist with experience in AR, XR, HMDs, product, design, research and writing in ethical and social innovation spaces.`,
     author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    siteUrl: `https://blrajreactsitemain.gatsbyjs.io/`,
   },
   plugins: [
     `gatsby-plugin-image`,

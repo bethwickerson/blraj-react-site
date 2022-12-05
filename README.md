@@ -33,7 +33,7 @@ $ gatsby develop
 Feel free to use it as-is or customize it as much as you want.
 - Change `src/yourdata.js` to edit your personal portfolio. 
 - Add and remove sections in the `src/pages/index.js` file.
-- Update seo metadata in the `gatsby-config.js` file.
+- Update SEO metadata in the `gatsby-config.js` file.
 
 ## Deployment
 
