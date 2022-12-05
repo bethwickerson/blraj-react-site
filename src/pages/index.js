@@ -10,6 +10,7 @@ import Work from "../components/Work"
 import About from "../components/About"
 import Skills from "../components/Skills"
 import Promotion from "../components/Promotion"
+import Contact from "../components/Contact"
 
 const IndexPage = () => (
   <Layout>
@@ -22,11 +23,12 @@ const IndexPage = () => (
         alt=""
         style={{ marginBottom: `var(--space-3)` }}
       /> */}
-    <Navbar></Navbar>
-    <Work></Work>
-    <Promotion></Promotion>
-    <About></About>
-    <Skills></Skills>
+    <Navbar />
+    <Work />
+    <Promotion />
+    <About />
+    <Skills />
+    <Contact />
   </Layout>
 )
 
