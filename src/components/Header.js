@@ -12,7 +12,9 @@ const Header = ({ siteTitle }) => (
             {yourData.headername}
           </h1>
         </Fade>
-        <button className="primary-btn" onClick={() => scrollTo("#contact")}>WORK WITH ME</button>
+        <Fade delay={500}>
+          <button className="primary-btn" onClick={() => scrollTo("#contact")}>WORK WITH ME</button>
+        </Fade>
         {/* <button className="arrow-btn bounce" onClick={() => scrollTo("#work")}>&#8595;</button> */}
       </div>
     </div>
