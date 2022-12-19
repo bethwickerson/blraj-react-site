@@ -6,8 +6,8 @@ import Sketch from "../components/iFrameSketch"
 
 const Header = ({ siteTitle }) => (
   <>
-    <Sketch />
     <header className="section header" id="home">
+      <Sketch />
       <div className="container">
         <div className="header-wrapper">
           <Fade>
