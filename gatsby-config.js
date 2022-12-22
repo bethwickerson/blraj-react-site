@@ -11,7 +11,7 @@ module.exports = {
   siteMetadata: {
     title: `BALRAJ AR DESIGNER`,
     description: `Creative technologist with experience in AR, XR, HMDs, product, design, research and writing in ethical and social innovation spaces.`,
-    author: `@gatsbyjs`,
+    author: `@bethwickerson`,
     siteUrl: `https://blrajreactsitemain.gatsbyjs.io/`,
   },
   plugins: [
@@ -38,7 +38,7 @@ module.exports = {
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#ffffff`,
         display: `minimal-ui`,
-        icon: `src/images/favicon_io/favicon-32x32.png`, // This path is relative to the root of the site.
+        icon: `src/images/favicon_io/favicon-32x32.png`, // Favicon: This path is relative to the root of the site.
       },
     },
   ],

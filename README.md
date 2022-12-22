@@ -31,20 +31,17 @@ $ gatsby develop
 ## Personalize
 
 Feel free to use it as-is or customize it as much as you want.
-- Change `src/yourdata.js` to edit your personal portfolio. 
-- Add and remove sections in the `src/pages/index.js` file.
-- Update SEO metadata in the `gatsby-config.js` file.
+- EDIT CONTENT: Change `src/yourdata.js` to edit your personal portfolio. 
+- ADD/REMOVE WHOLE SECTIONS: in the `src/pages/index.js` file.
+- UPDATE SEO: Metadata and favicon is configured in the `gatsby-config.js` file.
 
 ## Deployment
 
-When you are done with the setup, you should host your website online.
-We highly recommend to read through the [Deploying on Github Pages](https://create-react-app.dev/docs/deployment/#github-pages) docs for React.
+When you are done with the setup, I recommend deploying to Gatsby Cloud.
 
-#### Deploying to Netlify
+You can host directly with Gatsby Cloud by linking your own repository. Every time you push to the main branch of the repo, your changes will be automatically deployed.
 
-You could also host directly with Netlify by linking your own repository.
-
-For more information, read [hosting on Netlify](https://create-react-app.dev/docs/deployment/#netlify).
+For more information, read [Deploying to Gatsby Cloud](https://www.gatsbyjs.com/docs/how-to/previews-deploys-hosting/deploying-to-gatsby-cloud/).
 
 ## Technologies Used
 
@@ -52,6 +49,5 @@ For more information, read [hosting on Netlify](https://create-react-app.dev/doc
 - [Gatsby](https://www.gatsbyjs.com/)
 
 ### Plugins
-- [p5](https://www.npmjs.com/package/p5)
 - [React Awesome Reveal](https://www.npmjs.com/package/react-awesome-reveal)
 - [Gatsby Smoothscroll](https://www.gatsbyjs.com/plugins/gatsby-plugin-smoothscroll/)

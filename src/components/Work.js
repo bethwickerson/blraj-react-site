@@ -1,8 +1,7 @@
-import React, { useState } from "react"
+import React, { useState } from "react";
 import { Fade } from "react-awesome-reveal";
-//const ModalComponent = React.lazy(() => import('./atoms/Modal'));
-import Modal from "./atoms/Modal"
-import { yourData } from "../yourdata"
+import Modal from "./atoms/Modal";
+import { yourData } from "../yourdata";
 
 
 const Work = () => {
@@ -20,7 +19,7 @@ const Work = () => {
           <Fade>
             <h1>Work</h1>
           </Fade>
-          <div className="grid">
+          <div className="grid work">
             {yourData.projects.map((project, index) => (
               <>
                 <button key={project.index} className={`modal-thumbnails ${toggled === index ? 'active' : ''}`} onClick={() => toggleAccordion(index)}>

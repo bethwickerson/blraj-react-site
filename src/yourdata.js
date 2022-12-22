@@ -1,13 +1,12 @@
 import React from 'react'
 
 // import all images and videos
-import pic from "./images/balraj.jpg"
-// import video1 from "./videos/placeholder.mp4"
-import project1 from "./images/work1.jpg"
-import project2 from "./images/work2.jpg"
-import project3 from "./images/work3.jpg"
-import codepen1 from "./images/codepen1.jpg"
-import Icon from "./images/icons/unreal.png"
+import pic from "./images/balraj.jpg";
+import project1 from "./images/work1.jpg";
+import project2 from "./images/work2.jpg";
+import project3 from "./images/work3.jpg";
+import codepen1 from "./images/codepen1.jpg";
+import Icon from "./images/icons/unreal.png";
 
 
 export const yourData = {
@@ -32,7 +31,6 @@ export const yourData = {
           <p>Description</p>
         </>,
       videoSrcURL: "https://player.vimeo.com/video/775340965?h=825942e541?amp;loop=1",
-      // videoSrcURL: video1,
       projectLink: "http://google.com",
     },
     {
@@ -53,16 +51,25 @@ export const yourData = {
         </>,
       videoSrcURL: "https://player.vimeo.com/video/775359980?h=e74225c983?amp;loop=1",
     },
+    // copy section to add more projects
+    // {
+    //   videoThumb: project3,
+    //   videoTitle: "Project Title",
+    //   paragraph:
+    //     <>
+    //       <p>Description</p>
+    //     </>,
+    //   videoSrcURL: "",
+    // },
   ],
   // End Work Section -----------------------
-  // ----------------------------------------------------
-  // * * * * * * * * * *
+  // ----------------------------------------------------// * * * * * * * * * *
   // ----------------------------------------------------
   // Promotion Section -----------------------------
-  promotionHeading: "Codepen",
+  promotionHeading: "Code",
   promotionPara:
     <>
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus iaculis placerat quam non mattis. Mauris non ultrices tortor. Mauris tincidunt ligula ut est aliquam hendrerit. Mauris efficitur, nisl quis sollicitudin dapibus, turpis nulla molestie lectus, vel lacinia orci diam a turpis. Mauris egestas lacus arcu. </p>
     </>,
   codepens: [
     {
